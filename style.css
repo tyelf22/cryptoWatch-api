@@ -1,0 +1,31 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+td, th {
+  text-align: left;
+  padding: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+h3{
+  display: inline;
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+#refresh {
+  display: inline;
+  cursor: pointer;
+  font-size: 30px;
+}
